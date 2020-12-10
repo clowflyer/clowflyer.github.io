@@ -1,0 +1,55 @@
+#pageTop {
+  background-image: url("https://images.idgesg.net/images/idge/imported/imageapi/2019/07/26/15/cloud_istock_harnnarong-100803439-large.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  border: 7px ridge navy;
+  padding: 12px;
+}
+#test, #parag2 {
+  background-color: rgba(100, 200, 255, .5)
+}
+
+h1 { 
+  color: navy;
+  font-family: "Impact";
+  text-align: center; 
+  text-decoration: underline;
+}
+h3 {
+  font-family: "Book Antiqua";
+  font-style: italic;
+  /*font-weight: 700; /*heading has the default bold face*/
+  text-decoration: underline;
+}
+
+blockquote {
+  font-family: cursive;
+  font-style: italic;
+}
+
+p a{
+  color: green;
+}
+
+#YT { color: red; }
+#tw { color: purple; }
+.stream {font-weight: bold; }
+
+li {
+  list-style-image: url("https://img.icons8.com/small/2x/find-user-female.png");
+}
+
+/* Some selectors */
+/*
+#: id
+.: class
+,: joined selector (rules applying to multiple selectors)
+
+[tag].[class] or .[class].[class]: specialized selector applying rules that satisfied all the selectors.
+
+#[id] [tag]: rules applying to all [tag] under the [id]
+
+>: direct descendent, only applying to the direct children only
+*: everything selector
+*/
