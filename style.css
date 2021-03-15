@@ -1,20 +1,59 @@
-#pageTop {
-  background-image: url("https://images.idgesg.net/images/idge/imported/imageapi/2019/07/26/15/cloud_istock_harnnarong-100803439-large.jpg");
-  background-size: cover;
-  background-repeat:no-repeat;
-  background-position:center;
-  border: 7px ridge navy;
-  padding: 12px;
-}
-#test, #parag2 {
-  background-color: rgba(100, 200, 255, .5)
+body{
+	background-image: url("images/mango.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: lightblue;
 }
 
-h1 { 
-  color: navy;
-  font-family: "Impact";
-  text-align: center; 
-  text-decoration: underline;
+#name {
+	background-image: url("https://images.idgesg.net/images/idge/imported/imageapi/2019/07/26/15/cloud_istock_harnnarong-100803439-large.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding: 10px;
+	margin: 0px;
+	color: navy;
+	font-family: "Impact";
+	text-align: center; 
+	/*text-decoration: underline;*/
+	border-bottom: 5px ridge lightblue;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+}
+
+#pageTop {
+  /*border: 7px ridge navy;*/
+  margin-top: 80px;
+}
+#test, #parag2 {
+  /*background-color: rgba(100, 200, 255, .5)*/
+  color: white;
+}
+
+a {
+	font-weight: bold;
+}
+#PhotoGrid {
+	display: flex;
+	flex-flow: row no-wrap;
+}
+#PhotoGrid > img{
+	flex: 1 1;
+	max-width: calc(100vw / 5);
+	padding: 5px;
+	border: 5px solid Maroon;
+	margin: 5px;
+	background-color: lightgray;
+}
+
+#pageTop > img {
+	border: 5px solid black;
+	padding: 10px;
+	background-color: gray;
 }
 h3 {
   font-family: "Book Antiqua";
@@ -26,10 +65,6 @@ h3 {
 blockquote {
   font-family: cursive;
   font-style: italic;
-}
-
-p a{
-  color: green;
 }
 
 #YT { color: red; }
@@ -52,4 +87,7 @@ li {
 
 >: direct descendent, only applying to the direct children only
 *: everything selector
+p a{
+  color: green;
+}
 */

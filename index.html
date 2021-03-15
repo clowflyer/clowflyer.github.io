@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Self Intro Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
 <!--
   EXERCISE: write a simple intro page
     1. Write all the required tags (elements) in your document
@@ -12,17 +22,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-	<link rel="stylesheet" href="/style.css">
   </head>
   <body>
     <header id="pageTop">
-      <h1> INSTRUCTOR: Karen Guo </h1>
+      <h1 id="name"> Karen Guo </h1>
       <p id="test"> 
         Welcome to this page! This is Karen and I'm a PhD recently graduated from University of Minnesota. Here are some details of my bio and skills: <a href="https://www.linkedin.com/in/karenguotw/"> My LinkedIn </a>
       </p>
       <p id="parag2">
-        My research is about ... <q> Machine Learning and Artificial Intelligent <a href="https://scholar.google.com.tw/citations?user=80goU-cAAAAJ&hl=zh-TW"> ref.</a>, and some of human behavior. </q>
+        My research is about ... <q> Machine Learning and Artificial Intelligent, and some of human behavior. </q>
       </p>
+	  <img src="images/intro_intersection.jpg" alt="intro of my research domain" width="500px">
+	  <p>
+		Please check my Google Scholar Page <a href="https://scholar.google.com.tw/citations?user=80goU-cAAAAJ&hl=zh-TW"> here </a>.
+	  </p>
     </header>
     <section>
       <header>
@@ -41,8 +54,7 @@
       <blockquote> Keep looking at the bright side </blockquote>
       <hr>
     </section>
-    <!-- add a hyperlink of your email address at the end of your introduction --> 
-    <a href="karenguo0727@gmail.com"> this is my email </a>
+    
 
     
     <!-- Exercise: 
@@ -53,15 +65,28 @@
     
 
     -->
-    <section>
+    <section id="PhotoGallery">
     <h4> Photo Gallery </h4>
-    <img src="https://scontent-msp1-1.xx.fbcdn.net/v/t1.0-9/118957199_10221928082286615_8125474386140944009_o.jpg?_nc_cat=111&ccb=2&_nc_sid=e3f864&_nc_ohc=K9a-QkqKDNMAX8FtR34&_nc_ht=scontent-msp1-1.xx&oh=d161602d25963f8d58dec4def87ecd74&oe=5FC5D36D" alt="Sunflower" width="500">
-    <br>
-    <img src="https://scontent-msp1-1.xx.fbcdn.net/v/t1.0-9/72076088_10218775915084405_1521565045908045824_o.jpg?_nc_cat=105&ccb=2&_nc_sid=19026a&_nc_ohc=EeVQS-OwH9wAX_mOnMy&_nc_ht=scontent-msp1-1.xx&oh=cb41ba8f20745c2359774519a8650dba&oe=5FC75DCE" alt="Fall color" title= "Fall color taken at Lake Superior Trail" width="500">
+	<div id="PhotoGrid">
+		<img src="images/sunflower1.jpg" alt="Sunflower">
+		<!-- <img src="images/sunflower2.jpg" alt="Fall color" title= "Fall color taken at Lake Superior Trail"> -->
+		<img src="images/star.jpg" alt="star gazing">
+		<img src="images/xmasMarket.jpg" alt="Xmas Market">
+	</div>
     </section>
     <hr>
-    <footer>
-      <a href="#pageTop"> Click here </a> to go back to the top of this page.
+    <footer id="Contact">
+		<p>
+			<a href="#pageTop"> Click here </a> to go back to the top of this page.
+		</p>
+		<!-- add a hyperlink of your email address at the end of your introduction --> 
+		<address>
+			Email: karenguo0727 [at] gmail
+		</address>
     </footer
   </body>
+</html>
+<!-- partial -->
+  
+</body>
 </html>
